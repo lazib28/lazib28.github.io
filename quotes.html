@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Quotes</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+ <script>
+ 	function greet()
+ 	{
+ 		alert("That's a great quote!")
+ 	}
+ </script>
+
+ 
+</head>
+<body>
+	<!---nav--->
+	<nav class="navbar navbar-light" style="background-color: #e3f2fd;">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Lazib Sharar Shaiok</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="index.html">About Me</a></li>
+      <li><a href="qoutes.html">Quotes</a></li>
+      <li><a href="academics.html">Academics</a></li>
+      <li><a href="hobbies.html">Hobbies</a></li>
+    </ul>
+  </div>  
+</nav>
+<!----hEADING--->
+<h1 class="quotes-heading"> Quotes</h1>
+<p class="quotesintro">"I feel like sharing your favourite quotes is a great way of getting to know one another. So here are a few of my favourite ones." - Me</p>
+<!----flexbox stuff-->
+<div>
+<div class="shadow"><p style="font-size:25px">"Pride is not the opposite of shame but it's source.True Humility is the only antidote to shame"-Uncle Iroh</p></div></div>
+<div class="shadow"><p style="font-size:25px">"It is our choices, Harry, that show what we truly are, far more than our abilities."-Dumbledore</p></div>
+<div class="shadow"><p style="font-size:25px">""I want to show I can be a splendid ninja as well even if I don't have ninjutsu or genjutsu... I want to prove it to the whole world!"-Rock-Lee</p></div>
+<div class="shadow"><p style="font-size:25px">"We will go again"-Klopp</p></div>
+
+<hr>
+
+<!---form--->
+<div>
+	<form onsubmit="greet();return false;">
+
+		<div class="form-group">
+			<label><p style="font-size:25px">Tell me about your favourite quote!!!</p></label>
+			<textarea class="form-control" placeholder="Quote"></textarea>
+		</div>
+		<div class="btn">
+			<input type="submit" class="btn btn-primary btn-lg" value="Submit">
+		</div>
+	</form>
+
+</div>
+
+</body>
+</html>

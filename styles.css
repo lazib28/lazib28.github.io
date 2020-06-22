@@ -1,0 +1,351 @@
+.caption2x{
+    font-size: 35px;
+}
+
+
+
+.quotes-heading{
+    font-size: 35px;
+    color:lightseagreen; 
+    padding-left: 50px;
+}
+
+
+
+
+
+.sportfont2{
+    font-size: 20px;
+}
+
+.sportfont{
+    font-size: 35px;
+}
+
+.btn{
+    padding-bottom: 900px;
+}
+
+
+
+.form-group{
+    padding-bottom: 50px;
+}
+.shadow{
+      width:100%; ;
+  height: 100px;
+  padding: 15px;
+  background-color: white;
+  box-shadow: 10px 10px 5px grey;
+}
+.quotesintro{
+    font-size:25px;
+    padding-left: 65px;
+    border-left: 6px solid lightseagreen;
+  background-color: lightgrey;
+  border-width: 18px 20px;
+}
+
+
+
+
+
+
+.flex-container {
+  display: flex;
+  background-color: #f1f1f1;
+   flex-direction:row;
+}
+
+.flex-container > div {
+  background-color: DodgerBlue;
+  color: white;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+
+
+.inbtwn1{
+  font-size:35px;
+  padding-right:15%;
+   
+}
+.inbtwn{
+  font-size: 20px;
+  padding-right:15%;
+  color:black;
+}
+
+.sushi{
+      font-size: 20px;
+     color:black;
+}
+
+.sun{
+     font-size: 20px;
+     color:black;
+}
+
+
+.cody{
+    font-size: 20px;
+     color:black;
+     padding-left: 15px;
+}
+
+.crashcourse{
+    font-size: 20px;
+     color:black;
+}
+
+
+.aynabaji{
+     font-size: 20px;
+     color:black;
+}
+.caption2{
+    font-size: 20px;
+
+}
+.caption1{
+    font-size: 35px;
+}
+.padding1{
+    padding-bottom: 100px;
+}
+
+.font5{
+ color:lightseagreen; 
+}
+.font3{
+    font-size:40px;
+    color:lightseagreen;
+    padding-left: 45px;
+}
+.font2{
+    font-size: 40px;
+
+}
+.font1{
+    font-size:18px;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+.ex2{
+  padding-right: 30px;
+  padding-left: 50px;
+  font-size:18px;
+}
+
+.ex1 {
+  padding-bottom: 100px;
+}
+
+
+.300-px-wide {
+    width: 300px;
+}
+.two-column{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+.pro-pic img{
+width: 100%
+}
+.content{
+	padding:30px;
+
+}
+.content h1{
+	color: lightseagreen;
+}
+.timeline {
+    list-style: none;
+    padding: 20px 0 20px;
+    position: relative;
+}
+
+    .timeline:before {
+        top: 0;
+        bottom: 0;
+        position: absolute;
+        content: " ";
+        width: 3px;
+        background-color: #eeeeee;
+        left: 50%;
+        margin-left: -1.5px;
+    }
+
+    .timeline > li {
+        margin-bottom: 20px;
+        position: relative;
+    }
+
+        .timeline > li:before,
+        .timeline > li:after {
+            content: " ";
+            display: table;
+        }
+
+        .timeline > li:after {
+            clear: both;
+        }
+
+        .timeline > li:before,
+        .timeline > li:after {
+            content: " ";
+            display: table;
+        }
+
+        .timeline > li:after {
+            clear: both;
+        }
+
+        .timeline > li > .timeline-panel {
+            width: 46%;
+            float: left;
+            border: 1px solid #d4d4d4;
+            border-radius: 2px;
+            padding: 20px;
+            position: relative;
+            -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+            box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+        }
+
+            .timeline > li > .timeline-panel:before {
+                position: absolute;
+                top: 26px;
+                right: -15px;
+                display: inline-block;
+                border-top: 15px solid transparent;
+                border-left: 15px solid #ccc;
+                border-right: 0 solid #ccc;
+                border-bottom: 15px solid transparent;
+                content: " ";
+            }
+
+            .timeline > li > .timeline-panel:after {
+                position: absolute;
+                top: 27px;
+                right: -14px;
+                display: inline-block;
+                border-top: 14px solid transparent;
+                border-left: 14px solid #fff;
+                border-right: 0 solid #fff;
+                border-bottom: 14px solid transparent;
+                content: " ";
+            }
+
+        .timeline > li > .timeline-badge {
+            color: #fff;
+            width: 50px;
+            height: 50px;
+            line-height: 50px;
+            font-size: 1.4em;
+            text-align: center;
+            position: absolute;
+            top: 16px;
+            left: 50%;
+            margin-left: -25px;
+            background-color: #999999;
+            z-index: 100;
+            border-top-right-radius: 50%;
+            border-top-left-radius: 50%;
+            border-bottom-right-radius: 50%;
+            border-bottom-left-radius: 50%;
+        }
+
+        .timeline > li.timeline-inverted > .timeline-panel {
+            float: right;
+        }
+
+            .timeline > li.timeline-inverted > .timeline-panel:before {
+                border-left-width: 0;
+                border-right-width: 15px;
+                left: -15px;
+                right: auto;
+            }
+
+            .timeline > li.timeline-inverted > .timeline-panel:after {
+                border-left-width: 0;
+                border-right-width: 14px;
+                left: -14px;
+                right: auto;
+            }
+
+.timeline-badge.primary {
+    background-color: #2e6da4 !important;
+}
+
+.timeline-badge.success {
+    background-color: #3f903f !important;
+}
+
+.timeline-badge.warning {
+    background-color: #f0ad4e !important;
+}
+
+.timeline-badge.danger {
+    background-color: #d9534f !important;
+}
+
+.timeline-badge.info {
+    background-color: #5bc0de !important;
+}
+
+.timeline-title {
+    margin-top: 0;
+    color: inherit;
+}
+
+.timeline-body > p,
+.timeline-body > ul {
+    margin-bottom: 0;
+}
+
+    .timeline-body > p + p {
+        margin-top: 5px;
+    }
+
+@media (max-width: 767px) {
+    ul.timeline:before {
+        left: 40px;
+    }
+
+    ul.timeline > li > .timeline-panel {
+        width: calc(100% - 90px);
+        width: -moz-calc(100% - 90px);
+        width: -webkit-calc(100% - 90px);
+    }
+
+    ul.timeline > li > .timeline-badge {
+        left: 15px;
+        margin-left: 0;
+        top: 16px;
+    }
+
+    ul.timeline > li > .timeline-panel {
+        float: right;
+    }
+
+        ul.timeline > li > .timeline-panel:before {
+            border-left-width: 0;
+            border-right-width: 15px;
+            left: -15px;
+            right: auto;
+        }
+
+        ul.timeline > li > .timeline-panel:after {
+            border-left-width: 0;
+            border-right-width: 14px;
+            left: -14px;
+            right: auto;
+        }
+}
